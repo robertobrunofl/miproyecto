@@ -1,0 +1,94 @@
+@import"fuentes";
+@import "generales";
+@import "index";
+@import "nosotros";
+@import "menu";
+@import "pedidos";
+@import "contacto";
+
+
+/*index*/
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    background-color: lightgray;
+    margin: 5px;
+    }
+    
+    .card-group{
+    display: flex;
+    
+    }
+    .pedido{
+        
+        h2{
+            display: flex;
+            justify-content: center;
+        }
+        button:hover{
+            transform: scale(105%);
+
+        }
+
+    }
+    
+    .card-img-top:hover{
+        transform: scale(110%);
+    }
+    .tituloCard{
+        display: flex;
+        justify-content: center;
+    }
+    
+    /*pedidos*/
+    
+    .datosClientes2{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .platosCant{
+        display: flex;
+        margin-top: 10px;
+
+        .cantidad{
+            margin-left: 150px ;
+        }
+    }
+    .sectionPedidos{
+        display: flex;
+        flex-direction: column;
+        background-color: grey;
+        h1{
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            background-color: rgb(243, 228, 24);
+        }
+
+    }
+    .finalizar{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+
+    }
+    .delivery{
+        display: flex;
+        justify-self: center;
+        justify-content: space-evenly;
+
+    }
+    .inicio{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+    }

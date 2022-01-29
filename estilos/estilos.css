@@ -1,0 +1,144 @@
+/*index*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  background-color: lightgray;
+  margin: 5px;
+}
+
+.card-img-top:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+/*index*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  background-color: lightgray;
+  margin: 5px;
+}
+
+.card-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.pedido h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pedido button:hover {
+  -webkit-transform: scale(105%);
+          transform: scale(105%);
+}
+
+.card-img-top:hover {
+  -webkit-transform: scale(110%);
+          transform: scale(110%);
+}
+
+.tituloCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*pedidos*/
+.datosClientes2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.platosCant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.platosCant .cantidad {
+  margin-left: 150px;
+}
+
+.sectionPedidos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: grey;
+}
+
+.sectionPedidos h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+  background-color: #f3e418;
+}
+
+.finalizar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+}
+
+.delivery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-self: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.inicio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+/*# sourceMappingURL=estilos.css.map */
