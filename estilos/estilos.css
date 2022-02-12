@@ -1,4 +1,5 @@
 /*index*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -26,17 +27,36 @@
 }
 
 .titulo {
+  height: 100px;
+  width: 1345px;
   padding: 5px;
   margin-bottom: 5px;
   border: 5px solid #000;
-  text-align: center;
   background-color: beige;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo .nomeRest {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .pedido h2 {
@@ -57,6 +77,21 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sublinhado, .sublinhado--index {
+  width: 10px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sublinhado--index {
+  color: #000;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -164,6 +199,15 @@
   margin: 10px;
 }
 
+.bottom .datos:hover {
+  -webkit-transform: scale(115%);
+          transform: scale(115%);
+}
+
+.bottom .datos {
+  margin: 5px;
+}
+
 .delivery {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -174,28 +218,10 @@
           justify-content: space-evenly;
 }
 
-.inicio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 5px;
-  padding: 5px;
-  background-color: lightgrey;
-}
-
-.inicio .nomeRest {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.inicio .subTitulo {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.delivery .dely {
+  width: 300px;
+  height: 30px;
+  margin-top: 30px;
 }
 
 /*menu*/

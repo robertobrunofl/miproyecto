@@ -9,26 +9,42 @@
 
 /*index*/
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
 }
 .contenedor{
     background-color: lightgray;
     margin: 5px;
     }
+    @mixin sizes($width, $height) {
+      height: $height;
+      width: $width;
+   }
+   
     .titulo{
+      @include sizes(1345px,100px);
         padding: 5px;
         margin-bottom: 5px;
-	    border: 5px solid #000;
-        text-align: center;
+	      border: 5px solid #000;
         background-color: beige;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .nomeRest{
+            justify-content: center;
+        }
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+        font-style: italic;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         
     }
     
     .card-group{
     display: flex;
+    flex-wrap: wrap;
     
     }
+    
     .pedido{
         
         h2{
@@ -44,6 +60,18 @@
             justify-content: center;
         }
 
+    }
+    .sublinhado{
+      width: 10px;
+      height: 30px;
+     display: flex
+    }
+    .sublinhado--index{
+      @extend.sublinhado;
+      color:#000;
+      justify-content: center;
+      
+      
     }
     .indexPagos{
         display: flex;
@@ -108,27 +136,26 @@
         display: flex;
         justify-content: center;
         margin: 10px;
+        .datos:hover{
+          transform: scale(115%);
+        }
+        .datos{
+          margin: 5px;
+        }
+        }
 
-    }
     .delivery{
         display: flex;
         justify-self: center;
         justify-content: space-evenly;
+        .dely{
+          width: 300px;
+          height: 30px;
+          margin-top: 30px;
+        }
 
     }
-    .inicio{
-        display: flex;
-        justify-content:center;
-        margin: 5px;
-        padding: 5px;
-        background-color: lightgrey;
-        .nomeRest{
-            justify-content: center;
-        }
-        .subTitulo{
-            justify-content: center;
-        }
-    }
+    
     /*menu*/
     
     .containerMenu{
