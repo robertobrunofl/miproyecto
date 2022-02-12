@@ -1,5 +1,4 @@
 /*index*/
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -27,8 +26,6 @@
 }
 
 .titulo {
-  height: 100px;
-  width: 1345px;
   padding: 5px;
   margin-bottom: 5px;
   border: 5px solid #000;
@@ -82,19 +79,10 @@
           justify-content: center;
 }
 
-.sublinhado, .sublinhado--index {
-  width: 10px;
-  height: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.sublinhado--index {
-  color: #000;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.sublinhado {
+  height: 50px;
+  width: 400px;
+  text-align: center;
 }
 
 .indexPagos {

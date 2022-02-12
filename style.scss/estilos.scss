@@ -16,13 +16,7 @@
     background-color: lightgray;
     margin: 5px;
     }
-    @mixin sizes($width, $height) {
-      height: $height;
-      width: $width;
-   }
-   
     .titulo{
-      @include sizes(1345px,100px);
         padding: 5px;
         margin-bottom: 5px;
 	      border: 5px solid #000;
@@ -33,7 +27,6 @@
         .nomeRest{
             justify-content: center;
         }
-        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
         font-style: italic;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         
@@ -61,23 +54,28 @@
         }
 
     }
+    @mixin sizes($width, $height) {
+      height: $height;
+      width: $width;
+   }
     .sublinhado{
-      width: 10px;
-      height: 30px;
-     display: flex
-    }
-    .sublinhado--index{
-      @extend.sublinhado;
-      color:#000;
-      justify-content: center;
-      
-      
+      @include sizes(400px,50px);
+      text-align: center;
+
     }
     .indexPagos{
         display: flex;
      justify-content: space-between;
      
     }
+    .opcionesPago {
+      border: 1px #f00;
+      background-color: #fdd;
+}
+.opc--nueva {
+      @extend .opcionesPago;
+      border-width: 3px;
+
     .mP{
         text-align: center;
     }
@@ -148,12 +146,6 @@
         display: flex;
         justify-self: center;
         justify-content: space-evenly;
-        .dely{
-          width: 300px;
-          height: 30px;
-          margin-top: 30px;
-        }
-
     }
     
     /*menu*/
@@ -226,5 +218,12 @@
           width: 125px;
           height: 125px;
         }
-      }
-      
+        }
+        @media screen and (min-width:400px){
+          .sectionPedidos{
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+          }
+          
+        }
