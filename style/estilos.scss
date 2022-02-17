@@ -12,6 +12,15 @@
     margin:0;
     padding: 0;
 }
+nav {
+  display: flex;
+  background-color: rgb(238, 12, 12);
+ .nav-link {
+   color: black;
+   text-decoration: none;
+ }
+}
+
 .contenedor{
     background-color: lightgray;
     margin: 5px;
@@ -35,7 +44,6 @@
     .card-group{
     display: flex;
     flex-wrap: wrap;
-    
     }
     
     .pedido{
@@ -54,15 +62,7 @@
         }
 
     }
-    @mixin sizes($width, $height) {
-      height: $height;
-      width: $width;
-   }
-    .sublinhado{
-      @include sizes(400px,50px);
-      text-align: center;
-
-    }
+    
     .indexPagos{
         display: flex;
      justify-content: space-between;
@@ -70,11 +70,7 @@
     }
     .opcionesPago {
       border: 1px #f00;
-      background-color: #fdd;
 }
-.opc--nueva {
-      @extend .opcionesPago;
-      border-width: 3px;
 
     .mP{
         text-align: center;
@@ -86,6 +82,7 @@
     .tituloCard{
         display: flex;
         justify-content: center;
+        
         
     }
     /*nosotros*/
@@ -104,11 +101,36 @@
     .platosCant{
         display: flex;
         margin-top: 10px;
-
-        .cantidad{
-            margin-left: 150px ;
+      .cantidad{
+        margin-left: 185px;
+        
+      }
+      .observaciones{
+        margin-left: 350px;
+        }
+        .deliobs{
+        margin-left: 300px;
         }
     }
+    .titudeli{
+     text-align: center;
+     margin-top: 15px;
+     margin-right: 20px;
+    }
+    .delivery2{
+      display: flex;
+      justify-content: center;
+      .tpdeli{
+        margin-top: 30px;
+        margin-right: 40px;
+        margin-left: 25px;
+      }
+      .deliobs{
+        margin-left: 300px;
+      }
+    }
+  
+    
     .sectionPedidos{
         display: flex;
         flex-direction: column;
@@ -135,7 +157,7 @@
         justify-content: center;
         margin: 10px;
         .datos:hover{
-          transform: scale(115%);
+          transform: scale(125%);
         }
         .datos{
           margin: 5px;
@@ -219,11 +241,21 @@
           height: 125px;
         }
         }
-        @media screen and (min-width:400px){
-          .sectionPedidos{
-            display:flex;
-            flex-wrap: wrap;
-            flex-direction: column;
+        @media (max-width: 400px){
+          .datosClientes2{
+            display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
           }
+          .platosCant{
+            flex-direction: column;
+          align-items: center;
+          }
+          .cantidad{
+            margin-left: 0;
+        }
+
           
         }

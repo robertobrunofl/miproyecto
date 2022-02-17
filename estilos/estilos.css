@@ -20,6 +20,18 @@
   padding: 0;
 }
 
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ee0c0c;
+}
+
+nav .nav-link {
+  color: black;
+  text-decoration: none;
+}
+
 .contenedor {
   background-color: lightgray;
   margin: 5px;
@@ -29,14 +41,31 @@
   padding: 5px;
   margin-bottom: 5px;
   border: 5px solid #000;
-  text-align: center;
   background-color: beige;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.titulo .nomeRest {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card-group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .pedido h2 {
@@ -69,6 +98,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.opcionesPago {
+  border: 1px #f00;
 }
 
 .mP {
@@ -117,7 +150,40 @@
 }
 
 .platosCant .cantidad {
-  margin-left: 150px;
+  margin-left: 185px;
+}
+
+.platosCant .observaciones {
+  margin-left: 350px;
+}
+
+.platosCant .deliobs {
+  margin-left: 300px;
+}
+
+.titudeli {
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.delivery2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.delivery2 .tpdeli {
+  margin-top: 30px;
+  margin-right: 40px;
+  margin-left: 25px;
+}
+
+.delivery2 .deliobs {
+  margin-left: 300px;
 }
 
 .sectionPedidos {
@@ -164,6 +230,15 @@
   margin: 10px;
 }
 
+.bottom .datos:hover {
+  -webkit-transform: scale(125%);
+          transform: scale(125%);
+}
+
+.bottom .datos {
+  margin: 5px;
+}
+
 .delivery {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -172,30 +247,6 @@
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-}
-
-.inicio {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 5px;
-  padding: 5px;
-  background-color: lightgrey;
-}
-
-.inicio .nomeRest {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.inicio .subTitulo {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 /*menu*/
@@ -276,6 +327,37 @@
   .menu-item-image {
     width: 125px;
     height: 125px;
+  }
+}
+
+@media (max-width: 400px) {
+  .datosClientes2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .platosCant {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cantidad {
+    margin-left: 0;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
