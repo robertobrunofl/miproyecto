@@ -20,6 +20,18 @@
   padding: 0;
 }
 
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ee0c0c;
+}
+
+nav .nav-link {
+  color: black;
+  text-decoration: none;
+}
+
 .contenedor {
   background-color: lightgray;
   margin: 5px;
@@ -94,6 +106,10 @@
           justify-content: space-between;
 }
 
+.opcionesPago {
+  border: 1px #f00;
+}
+
 .mP {
   text-align: center;
 }
@@ -122,6 +138,29 @@
           justify-content: space-between;
 }
 
+.textNos {
+  width: 50%;
+}
+
+.horarios {
+  width: 50%;
+}
+
+.imgBod1 {
+  width: 100%;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+.imgBod2 {
+  width: 500px;
+  height: 350px;
+}
+
+.infGen {
+  margin-left: 6px;
+}
+
 /*pedidos*/
 .datosClientes2 {
   display: -webkit-box;
@@ -140,7 +179,40 @@
 }
 
 .platosCant .cantidad {
-  margin-left: 150px;
+  margin-left: 185px;
+}
+
+.platosCant .observaciones {
+  margin-left: 350px;
+}
+
+.platosCant .deliobs {
+  margin-left: 300px;
+}
+
+.titudeli {
+  text-align: center;
+  margin-top: 15px;
+  margin-right: 20px;
+}
+
+.delivery2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.delivery2 .tpdeli {
+  margin-top: 30px;
+  margin-right: 40px;
+  margin-left: 25px;
+}
+
+.delivery2 .deliobs {
+  margin-left: 300px;
 }
 
 .sectionPedidos {
@@ -188,8 +260,13 @@
 }
 
 .bottom .datos:hover {
+<<<<<<< HEAD
   -webkit-transform: scale(115%);
           transform: scale(115%);
+=======
+  -webkit-transform: scale(125%);
+          transform: scale(125%);
+>>>>>>> style
 }
 
 .bottom .datos {
@@ -206,12 +283,15 @@
           justify-content: space-evenly;
 }
 
+<<<<<<< HEAD
 .delivery .dely {
   width: 300px;
   height: 30px;
   margin-top: 30px;
 }
 
+=======
+>>>>>>> style
 /*menu*/
 .containerMenu {
   max-width: 1200px;
@@ -290,6 +370,37 @@
   .menu-item-image {
     width: 125px;
     height: 125px;
+  }
+}
+
+@media (max-width: 400px) {
+  .datosClientes2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .platosCant {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .cantidad {
+    margin-left: 0;
   }
 }
 /*# sourceMappingURL=estilos.css.map */

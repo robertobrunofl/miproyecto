@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import "fuentes";
+=======
+@import"fuentes";
+>>>>>>> style
 @import "generales";
 @import "index";
 @import "nosotros";
@@ -44,6 +48,13 @@ nav {
     .card-group{
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:style.scss/estilos.scss
+    
+========
+>>>>>>>> style:style/estilos.scss
+>>>>>>> style
     }
     
     .pedido{
@@ -62,7 +73,23 @@ nav {
         }
 
     }
+<<<<<<< HEAD
     
+=======
+<<<<<<<< HEAD:style.scss/estilos.scss
+    @mixin sizes($width, $height) {
+      height: $height;
+      width: $width;
+   }
+    .sublinhado{
+      @include sizes(400px,50px);
+      text-align: center;
+
+    }
+========
+    
+>>>>>>>> style:style/estilos.scss
+>>>>>>> style
     .indexPagos{
         display: flex;
      justify-content: space-between;
@@ -70,7 +97,19 @@ nav {
     }
     .opcionesPago {
       border: 1px #f00;
+<<<<<<< HEAD
 }
+=======
+<<<<<<<< HEAD:style.scss/estilos.scss
+      background-color: #fdd;
+}
+.opc--nueva {
+      @extend .opcionesPago;
+      border-width: 3px;
+========
+}
+>>>>>>>> style:style/estilos.scss
+>>>>>>> style
 
     .mP{
         text-align: center;
@@ -106,8 +145,13 @@ nav {
       height: 350px;
     }
    .infGen{
+<<<<<<< HEAD
      margin-left: 5px;
     }
+=======
+     margin-left: 6px;
+   }
+>>>>>>> style
     /*pedidos*/
     
     .datosClientes2{
@@ -174,7 +218,15 @@ nav {
         justify-content: center;
         margin: 10px;
         .datos:hover{
+<<<<<<< HEAD
           transform: scale(125%);
+=======
+<<<<<<<< HEAD:style.scss/estilos.scss
+          transform: scale(115%);
+========
+          transform: scale(125%);
+>>>>>>>> style:style/estilos.scss
+>>>>>>> style
         }
         .datos{
           margin: 5px;
@@ -258,6 +310,17 @@ nav {
           height: 125px;
         }
         }
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:style.scss/estilos.scss
+        @media screen and (min-width:400px){
+          .sectionPedidos{
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+          }
+========
+>>>>>>> style
         @media (max-width: 400px){
           .datosClientes2{
             display: flex;
@@ -274,5 +337,9 @@ nav {
             margin-left: 0;
         }
 
+<<<<<<< HEAD
+=======
+>>>>>>>> style:style/estilos.scss
+>>>>>>> style
           
         }
