@@ -1,14 +1,91 @@
 /*index*/
-*{
-    margin: 0;
-    padding: 0;
+
+.contenedor {
+    background-color: lightgray;
+    margin: 5px;
 }
-.contenedor{
-background-color: lightgray;
- margin: 5px;
+
+.card-img-top:hover {
+    transform: scale(2);
 }
-    
-    .card-img-top:hover{
-        transform: scale(2);
+
+.contenedor {
+    background-color: lightgray;
+    margin: 5px;
+}
+
+.titulo {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 5px solid #000;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3px;
+
+    .nomeRest {
+        justify-content: center;
     }
-    
+
+    font-style: italic;
+    font-family: 'Lucida Sans',
+    'Lucida Sans Regular',
+    'Lucida Grande',
+    'Lucida Sans Unicode',
+    Geneva,
+    Verdana,
+    sans-serif;
+
+}
+
+.nosIndex {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pedido {
+
+    h2 {
+        display: flex;
+        justify-content: center;
+    }
+
+    button:hover {
+        transform: scale(105%);
+
+    }
+
+    p {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+.indexPagos {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.opcionesPago {
+    border: 1px #f00;
+}
+
+.mP {
+    text-align: center;
+}
+
+.card-img-top:hover {
+    transform: scale(110%);
+}
+
+.tituloCard {
+    display: flex;
+    justify-content: center;
+}

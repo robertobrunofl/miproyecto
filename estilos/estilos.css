@@ -1,9 +1,4 @@
 /*index*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .contenedor {
   background-color: lightgray;
   margin: 5px;
@@ -12,24 +7,6 @@
 .card-img-top:hover {
   -webkit-transform: scale(2);
           transform: scale(2);
-}
-
-/*index*/
-* {
-  margin: 0;
-  padding: 0;
-}
-
-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: #ee0c0c;
-}
-
-nav .nav-link {
-  color: black;
-  text-decoration: none;
 }
 
 .contenedor {
@@ -50,14 +27,19 @@ nav .nav-link {
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  margin-top: 3px;
   font-style: italic;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .titulo .nomeRest {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.nosIndex {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .card-group {
@@ -122,7 +104,6 @@ nav .nav-link {
           justify-content: center;
 }
 
-/*nosotros*/
 .nosotros {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -155,7 +136,87 @@ nav .nav-link {
   margin-left: 6px;
 }
 
-/*pedidos*/
+.containerMenu {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5em;
+  background-color: #c4b3d5;
+  margin-bottom: 8px;
+}
+
+.menu {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu-group-heading {
+  margin: 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid black;
+}
+
+.menu-group {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 1.5em;
+  padding: 1.5em 0;
+}
+
+.menu-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.menu-item-image {
+  width: 80px;
+  height: 80px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 1.5em;
+}
+
+.menu-item-text {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.menu-item-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+}
+
+.menu-item-name {
+  margin-right: 1.5em;
+}
+
+.menu-item-description {
+  line-height: 1.6;
+}
+
+@media screen and (min-width: 992px) {
+  .menu {
+    font-size: 16px;
+  }
+  .menu-group {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .menu-item-image {
+    width: 125px;
+    height: 125px;
+  }
+}
+
 .datosClientes2 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -163,6 +224,7 @@ nav .nav-link {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-left: 8px;
 }
 
 .platosCant {
@@ -270,87 +332,6 @@ nav .nav-link {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-}
-
-/*menu*/
-.containerMenu {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1.5em;
-  background-color: #c4b3d5;
-}
-
-.menu {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.menu-group-heading {
-  margin: 0;
-  padding-bottom: 1em;
-  border-bottom: 2px solid black;
-}
-
-.menu-group {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  gap: 1.5em;
-  padding: 1.5em 0;
-}
-
-.menu-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.menu-item-image {
-  width: 80px;
-  height: 80px;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  -o-object-fit: cover;
-     object-fit: cover;
-  margin-right: 1.5em;
-}
-
-.menu-item-text {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-}
-
-.menu-item-heading {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin: 0;
-}
-
-.menu-item-name {
-  margin-right: 1.5em;
-}
-
-.menu-item-description {
-  line-height: 1.6;
-}
-
-@media screen and (min-width: 992px) {
-  .menu {
-    font-size: 16px;
-  }
-  .menu-group {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
-  }
-  .menu-item-image {
-    width: 125px;
-    height: 125px;
-  }
 }
 
 @media (max-width: 400px) {
