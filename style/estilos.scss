@@ -1,0 +1,278 @@
+@import"fuentes";
+@import "generales";
+@import "index";
+@import "nosotros";
+@import "menu";
+@import "pedidos";
+@import "contacto";
+
+
+/*index*/
+*{
+    margin:0;
+    padding: 0;
+}
+nav {
+  display: flex;
+  background-color: rgb(238, 12, 12);
+ .nav-link {
+   color: black;
+   text-decoration: none;
+ }
+}
+
+.contenedor{
+    background-color: lightgray;
+    margin: 5px;
+    }
+    .titulo{
+        padding: 5px;
+        margin-bottom: 5px;
+	      border: 5px solid #000;
+        background-color: beige;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        .nomeRest{
+            justify-content: center;
+        }
+        font-style: italic;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    
+    .card-group{
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .pedido{
+        
+        h2{
+            display: flex;
+            justify-content: center;
+        }
+        button:hover{
+            transform: scale(105%);
+
+        }
+        p{
+            display: flex;
+            justify-content: center;
+        }
+
+    }
+    
+    .indexPagos{
+        display: flex;
+     justify-content: space-between;
+     
+    }
+    .opcionesPago {
+      border: 1px #f00;
+}
+
+    .mP{
+        text-align: center;
+    }
+    
+    .card-img-top:hover{
+        transform: scale(110%);
+    }
+    .tituloCard{
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    /*nosotros*/
+    .nosotros{
+        display: flex;
+        justify-content: space-between;
+    }
+    .textNos{
+      width: 50%;
+    }
+    .horarios{
+      width: 50%;
+    }
+    .imgBod1{
+      width: 100%;
+      margin-bottom: 5px;
+      margin-left: 5px;
+    }
+    .imgBod2{
+      width: 500px;
+      height: 350px;
+    }
+   .infGen{
+     margin-left: 5px;
+    }
+    /*pedidos*/
+    
+    .datosClientes2{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .platosCant{
+        display: flex;
+        margin-top: 10px;
+      .cantidad{
+        margin-left: 185px;
+        
+      }
+      .observaciones{
+        margin-left: 350px;
+        }
+        .deliobs{
+        margin-left: 300px;
+        }
+    }
+    .titudeli{
+     text-align: center;
+     margin-top: 15px;
+     margin-right: 20px;
+    }
+    .delivery2{
+      display: flex;
+      justify-content: center;
+      .tpdeli{
+        margin-top: 30px;
+        margin-right: 40px;
+        margin-left: 25px;
+      }
+      .deliobs{
+        margin-left: 300px;
+      }
+    }
+  
+    
+    .sectionPedidos{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(184, 182, 182);
+        h1{
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+            
+        }
+        .nuevoP{
+          border-bottom: 3px black;
+        }
+
+    }
+    
+    .finalizar{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+        .datos:hover{
+          transform: scale(125%);
+        }
+        .datos{
+          margin: 5px;
+        }
+        }
+
+    .delivery{
+        display: flex;
+        justify-self: center;
+        justify-content: space-evenly;
+      }
+    
+    /*menu*/
+    
+    .containerMenu{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 1.5em;
+        background-color:#c4b3d5;
+      }
+      
+      .menu{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        
+      }
+      
+      .menu-group-heading{
+        margin: 0;
+        padding-bottom: 1em;
+        border-bottom: 2px solid rgb(0, 0, 0);
+      }
+      
+      .menu-group{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.5em;
+        padding: 1.5em 0;
+      }
+      
+      .menu-item{
+        display: flex;
+      }
+      
+      .menu-item-image{
+        width: 80px;
+        height: 80px;
+        flex-shrink: 0;
+        object-fit: cover;
+        margin-right: 1.5em;
+      }
+      
+      .menu-item-text{
+        flex-grow: 1;
+      }
+      
+      .menu-item-heading{
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+      }
+      
+      .menu-item-name{
+        margin-right: 1.5em;
+      }
+      
+      .menu-item-description{
+        line-height: 1.6;
+      }
+      
+      @media screen and (min-width: 992px){
+        .menu {
+          font-size: 16px;
+        }
+      
+        .menu-group {
+          grid-template-columns: repeat(2, 1fr);
+        }
+      
+        .menu-item-image {
+          width: 125px;
+          height: 125px;
+        }
+        }
+        @media (max-width: 400px){
+          .datosClientes2{
+            display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          }
+          .platosCant{
+            flex-direction: column;
+          align-items: center;
+          }
+          .cantidad{
+            margin-left: 0;
+        }
+
+          
+        }
