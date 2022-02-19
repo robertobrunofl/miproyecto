@@ -2,26 +2,47 @@
   display: flex;
   justify-content: space-between;
 }
-
-.textNos {
-  width: 50%;
+.sobNos{
+  margin-left: 20px;
+  .titSn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+  }
+  .textNos {
+    width: 90%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    }
 }
 
 .horarios {
   width: 50%;
+  margin-left: 10px;
+}
+.hHora{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 5px;
 }
 
 .imgBod1 {
   width: 100%;
   margin-bottom: 5px;
-  margin-left: 5px;
+  margin-left: 9px;
 }
 
 .imgBod2 {
   width: 500px;
   height: 350px;
+  margin-left:250px;
+  
 }
 
 .infGen {
-  margin-left: 6px;
+  margin-left: 20px;
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size:large;
+  .titInf{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
 }

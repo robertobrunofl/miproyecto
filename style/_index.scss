@@ -53,8 +53,12 @@
     h2 {
         display: flex;
         justify-content: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-top: 10px;
     }
-
+    p{
+        margin-left: 20px;
+    }
     button:hover {
         transform: scale(105%);
 
@@ -63,22 +67,28 @@
     p {
         display: flex;
         justify-content: center;
+        font-family: 'Times New Roman', Times, serif;
     }
-
+    .aca{
+        margin-left: 8px;
+    }
 }
 
 .indexPagos {
     display: flex;
-    justify-content: space-between;
-
-}
-
-.opcionesPago {
-    border: 1px #f00;
+    justify-content: center;
+    margin-left: 120px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    .obs{
+        margin-left: 20px;
+        font-size: large;
+    }
 }
 
 .mP {
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card-img-top:hover {

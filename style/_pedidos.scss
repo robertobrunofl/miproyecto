@@ -72,15 +72,15 @@
 .bottom {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  margin-bottom: 10px;
 
   .datos:hover {
     transform: scale(125%);
   }
 
-  .datos {
-    margin: 5px;
-  }
+  .datos{
+    margin: 10px;
+    
 }
 
 .delivery {
@@ -106,4 +106,5 @@
   .cantidad {
     margin-left: 0;
   }
+}
 }

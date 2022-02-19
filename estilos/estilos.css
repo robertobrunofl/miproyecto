@@ -57,6 +57,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 10px;
+}
+
+.pedido p {
+  margin-left: 20px;
 }
 
 .pedido button:hover {
@@ -71,23 +77,33 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.pedido .aca {
+  margin-left: 8px;
 }
 
 .indexPagos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 120px;
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.opcionesPago {
-  border: 1px #f00;
+.indexPagos .obs {
+  margin-left: 20px;
+  font-size: large;
 }
 
 .mP {
   text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .card-img-top:hover {
@@ -113,27 +129,52 @@
           justify-content: space-between;
 }
 
-.textNos {
-  width: 50%;
+.sobNos {
+  margin-left: 20px;
+}
+
+.sobNos .titSn {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-style: italic;
+}
+
+.sobNos .textNos {
+  width: 90%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
 }
 
 .horarios {
   width: 50%;
+  margin-left: 10px;
+}
+
+.hHora {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 5px;
 }
 
 .imgBod1 {
   width: 100%;
   margin-bottom: 5px;
-  margin-left: 5px;
+  margin-left: 9px;
 }
 
 .imgBod2 {
   width: 500px;
   height: 350px;
+  margin-left: 250px;
 }
 
 .infGen {
-  margin-left: 6px;
+  margin-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: large;
+}
+
+.infGen .titInf {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .containerMenu {
@@ -312,7 +353,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 .bottom .datos:hover {
@@ -321,10 +362,10 @@
 }
 
 .bottom .datos {
-  margin: 5px;
+  margin: 10px;
 }
 
-.delivery {
+.bottom .delivery {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -335,7 +376,7 @@
 }
 
 @media (max-width: 400px) {
-  .datosClientes2 {
+  .bottom .datosClientes2 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -351,7 +392,7 @@
             align-items: center;
     width: 100%;
   }
-  .platosCant {
+  .bottom .platosCant {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -360,8 +401,29 @@
         -ms-flex-align: center;
             align-items: center;
   }
-  .cantidad {
+  .bottom .cantidad {
     margin-left: 0;
   }
+}
+
+.contacto {
+  background-image: url(../imagenes/backgroundimagerest.jpg);
+}
+
+.valoracion1 {
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.valoracion2 {
+  margin-left: 15px;
+}
+
+.valoracion3 {
+  margin-left: 15px;
+}
+
+.butCon {
+  margin-bottom: 15px;
 }
 /*# sourceMappingURL=estilos.css.map */
