@@ -53,7 +53,9 @@
   }
 
   .infHor {
-
+    .nosHover:hover {
+      transform: scale(103%);
+  }
 
     .horNos {
       border: solid #e7771e 5px;

@@ -204,6 +204,11 @@
   color: white;
 }
 
+.sectionNos .infHor .nosHover:hover {
+  -webkit-transform: scale(103%);
+          transform: scale(103%);
+}
+
 .sectionNos .infHor .horNos {
   border: solid #e7771e 5px;
   border-radius: 15px;
