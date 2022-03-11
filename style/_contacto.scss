@@ -1,17 +1,30 @@
-.contacto{
-    background-image: url(../imagenes/backgroundimagerest.jpg);
+.imgBodcont {
+    height: 393px;
 }
-.valoracion1{
-    margin-right: 15px;
-    margin-left: 5px;
-    
-}
-.valoracion2{
-    margin-left: 15px;
-}
-.valoracion3{
-    margin-left: 15px;
-}
-.butCon{
-    margin-bottom: 15px;
+
+.formCont {
+    margin-top: 15px;
+
+    .contacto {
+        background-image: url(../imagenes/background3.jpg);
+        background-size: 100% 100%;
+    }
+
+    .valoracion1 {
+        margin-right: 15px;
+        margin-left: 5px;
+
+    }
+
+    .valoracion2 {
+        margin-left: 15px;
+    }
+
+    .valoracion3 {
+        margin-left: 15px;
+    }
+
+    .butCon {
+        margin-bottom: 15px;
+    }
 }

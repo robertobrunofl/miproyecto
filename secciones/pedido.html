@@ -10,16 +10,14 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <meta name="descripcion" content="RESTAURANTE DE COMIDA BRASILEÑA,ECUATORIANA Y ARGENTINA EN CABA">
     <meta name="keywords" content="brasil,argentina,ecuador,delivery,caba,comida,variedad,latinoamerica">
-    <title>Restaurante La Libertad</title>
+    <title>EL BODEGÓN</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navitem navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="../imagenes/logolalibertad.jpg" alt="" width="50" height="45">
-                </a>
+                <a href="index.html"><img class="logo" img src="../imagenes/Bodegonidea1.png"> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -27,19 +25,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="nav nav-tabs">
                         <li class="nav-item">
-                            <a class="nav-link home" aria-current="page" href="../index.html">HOME</a>
+                            <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link sobrenosotros" href="nosotros.html">SOBRE NOSOTROS</a>
+                            <a class="nav-link" href="nosotros.html">SOBRE NOSOTROS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu" href="menu.html">MENU</a>
+                            <a class="nav-link" href="menu.html">MENU</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hacersupedido" href="pedido.html">HACER SU PEDIDO</a>
+                            <a class="nav-link" href="pedido.html">HACER SU PEDIDO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link contacto" href="contacto.html">CONTACTO</a>
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
                         </li>
                     </ul>
                 </div>
@@ -47,109 +45,134 @@
         </nav>
     </header>
 
-    <div class="titulo">
-        <h1 class="nomeRest">Restaurante La Libertad</h1>
-        <p> <strong>DONDE VIAJAS POR LATINO AMERICA </strong> </p>
+    <div class="titulo d-flex justify-content-center col-12 col-md-12 col-lg-12">
+        <a href="file:///C:/Users/rober/OneDrive/%C3%81rea%20de%20Trabalho/desafio1/index.html">
+            <img class="imgBod w-45" src="../imagenes/Bodegonidea1.png" alt="logo">
+        </a>
     </div>
 
-
-    <section class="sectionPedidos">
-        <h1> NUEVO PEDIDO</h1>
-        <hr class="nuevoP">
-        <div class="datosCliente">
-            <form class="datosClientes2">
-                <div class="nombre">
-                    <label for="name">Ingrese su nombre:</label>
-                    <input type="text" name="name" /><br>
-                </div>
-                <div class="direccion">
-                    <label for="direccion">Ingrese su direccion:</label>
-                    <input type="text" placeholder="ex: calle numero piso depto" name="email" /><br>
-                </div>
-                <div class="telefono">
-                    <label for="telefono">Ingrese su numero:</label>
-                    <input type="tel" placeholder="+54911 xxxx-xxxx " number="number" />
-                </div>
-            </form>
+    <section class="pedidosPart pb-4">
+        <div class="container text-center mb-5">
+            <h1 class=" nuevoPed text-light d-inline p-2">NUEVO PEDIDO</h1>
         </div>
-        <section class="platosCant">
-            <div class="selectPlatos">
-                <div class="selectPlatos1">Selecciones el Plato :
-                    <select name="MENU">
-                        <option value="A">ASADO</option>
-                        <option value="M">MILANESAS</option>
-                        <option value="E">EMPANADAS</option>
-                        <option value="SC">STROGONOFF DE CARNE</option>
-                        <option value="SF">STROGONOFF DE FRANGO</option>
-                        <option value="PF">PF</option>
-                        <option value="R">RABADA</option>
-                        <option value="G">GUATITA</option>
-                        <option value="SP">SECO DE POLLO</option>
-                        <option value="SC">SECO DE CARNE</option>
-                        <option value="E">ENCEBOLLADO</option>
-                        <option value="PC">PORCION DE CHIFLES</option>
-                        <option value="N">NINGUNA DE LAS OPCIONES</option>
-                    </select>
+        <div class="container">
+            <div class="formDatos row gx-5">
+                <div class="col-12 col-md-4">
+                    <div class="mb-4">
+                        <label for="name" class="form-label">Ingrese Su Nombre</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Select" class="form-label">SELECCIONES EL PLATO</label>
+                        <select id="Select" class="form-select">
+                            <option value="A">ASADO</option>
+                            <option value="M">MILANESAS</option>
+                            <option value="E">EMPANADAS</option>
+                            <option value="SC">STROGONOFF DE CARNE</option>
+                            <option value="SF">STROGONOFF DE FRANGO</option>
+                            <option value="PF">PF</option>
+                            <option value="R">RABADA</option>
+                            <option value="G">GUATITA</option>
+                            <option value="SP">SECO DE POLLO</option>
+                            <option value="SC">SECO DE CARNE</option>
+                            <option value="E">ENCEBOLLADO</option>
+                            <option value="PC">PORCION DE CHIFLES</option>
+                            <option value="N">NINGUNA DE LAS OPCIONES</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Select" class="form-label">SELECCIONES EL PLATO</label>
+                        <select id="Select" class="form-select">
+                            <option value="A">ASADO</option>
+                            <option value="M">MILANESAS</option>
+                            <option value="E">EMPANADAS</option>
+                            <option value="SC">STROGONOFF DE CARNE</option>
+                            <option value="SF">STROGONOFF DE FRANGO</option>
+                            <option value="PF">PF</option>
+                            <option value="R">RABADA</option>
+                            <option value="G">GUATITA</option>
+                            <option value="SP">SECO DE POLLO</option>
+                            <option value="SC">SECO DE CARNE</option>
+                            <option value="E">ENCEBOLLADO</option>
+                            <option value="PC">PORCION DE CHIFLES</option>
+                            <option value="N">NINGUNA DE LAS OPCIONES</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Select" class="form-label">SELECCIONES EL PLATO</label>
+                        <select id="Select" class="form-select">
+                            <option value="A">ASADO</option>
+                            <option value="M">MILANESAS</option>
+                            <option value="E">EMPANADAS</option>
+                            <option value="SC">STROGONOFF DE CARNE</option>
+                            <option value="SF">STROGONOFF DE FRANGO</option>
+                            <option value="PF">PF</option>
+                            <option value="R">RABADA</option>
+                            <option value="G">GUATITA</option>
+                            <option value="SP">SECO DE POLLO</option>
+                            <option value="SC">SECO DE CARNE</option>
+                            <option value="E">ENCEBOLLADO</option>
+                            <option value="PC">PORCION DE CHIFLES</option>
+                            <option value="N">NINGUNA DE LAS OPCIONES</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Select" class="form-label">SELECCIONES EL PLATO</label>
+                        <select id="Select" class="form-select">
+                            <option value="A">ASADO</option>
+                            <option value="M">MILANESAS</option>
+                            <option value="E">EMPANADAS</option>
+                            <option value="SC">STROGONOFF DE CARNE</option>
+                            <option value="SF">STROGONOFF DE FRANGO</option>
+                            <option value="PF">PF</option>
+                            <option value="R">RABADA</option>
+                            <option value="G">GUATITA</option>
+                            <option value="SP">SECO DE POLLO</option>
+                            <option value="SC">SECO DE CARNE</option>
+                            <option value="E">ENCEBOLLADO</option>
+                            <option value="PC">PORCION DE CHIFLES</option>
+                            <option value="N">NINGUNA DE LAS OPCIONES</option>
+                        </select>
+                    </div>
                 </div>
 
-                <div class="selectPlatos1">Selecciones el Plato :
-                    <select name="MENU">
-                        <option value="A">ASADO</option>
-                        <option value="M">MILANESAS</option>
-                        <option value="E">EMPANADAS</option>
-                        <option value="SC">STROGONOFF DE CARNE</option>
-                        <option value="SF">STROGONOFF DE FRANGO</option>
-                        <option value="PF">PF</option>
-                        <option value="R">RABADA</option>
-                        <option value="G">GUATITA</option>
-                        <option value="SP">SECO DE POLLO</option>
-                        <option value="SC">SECO DE CARNE</option>
-                        <option value="E">ENCEBOLLADO</option>
-                        <option value="PC">PORCION DE CHIFLES</option>
-                        <option value="N">NINGUNA DE LAS OPCIONES</option>
-                    </select>
-                </div>
-
-                <div class="selectPlatos1">Selecciones el Plato :
-                    <select name="MENU">
-                        <option value="A">ASADO</option>
-                        <option value="M">MILANESAS</option>
-                        <option value="E">EMPANADAS</option>
-                        <option value="SC">STROGONOFF DE CARNE</option>
-                        <option value="SF">STROGONOFF DE FRANGO</option>
-                        <option value="PF">PF</option>
-                        <option value="R">RABADA</option>
-                        <option value="G">GUATITA</option>
-                        <option value="SP">SECO DE POLLO</option>
-                        <option value="SC">SECO DE CARNE</option>
-                        <option value="E">ENCEBOLLADO</option>
-                        <option value="PC">PORCION DE CHIFLES</option>]
-                        <option value="N">NINGUNA DE LAS OPCIONES</option>
-                    </select>
-                </div>
-
-                <div class="selectPlatos1">Selecciones el Plato :
-                    <select name="MENU">
-                        <option value="A">ASADO</option>
-                        <option value="M">MILANESAS</option>
-                        <option value="E">EMPANADAS</option>
-                        <option value="SC">STROGONOFF DE CARNE</option>
-                        <option value="SF">STROGONOFF DE FRANGO</option>
-                        <option value="PF">PF</option>
-                        <option value="R">RABADA</option>
-                        <option value="G">GUATITA</option>
-                        <option value="SP">SECO DE POLLO</option>
-                        <option value="SC">SECO DE CARNE</option>
-                        <option value="E">ENCEBOLLADO</option>
-                        <option value="PC">PORCION DE CHIFLES</option>
-                        <option value="N">NINGUNA DE LAS OPCIONES</option>
-                    </select>
-                </div>
-            </div>
-            <div class="cantidad">
-                <div class="cantidad1"> CANTIDAD :
-                    <select name="MENU">
-                        <option value="0">0</option>
+                <div class="col-12 col-md-4">
+                    <div class="mb-4">
+                        <label for="direccion" class="form-label">Ingrese Su Direccion</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Select" class="form-label">CANTIDAD</label>
+                        <select id="Select" class="form-select">
+                            <option value="0">0</option>
+                        <option value="A">1</option>
+                        <option value="M">2</option>
+                        <option value="E">3</option>
+                        <option value="SC">4</option>
+                        <option value="SF">5</option>
+                        <option value="PF">6 </option>
+                        <option value="R">MEDIA DOCENA</option>
+                        <option value="G">UNA DOCENA</option>>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Select" class="form-label">CANTIDAD</label>
+                        <select id="Select" class="form-select">
+                            <option value="0">0</option>
+                            <option value="A">1</option>
+                            <option value="M">2</option>
+                            <option value="E">3</option>
+                            <option value="SC">4</option>
+                            <option value="SF">5</option>
+                            <option value="PF">6 </option>
+                            <option value="R">MEDIA DOCENA</option>
+                            <option value="G">UNA DOCENA</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Select" class="form-label">CANTIDAD</label>
+                        <select id="Select" class="form-select">
+                            <option value="0">0</option>
                         <option value="A">1</option>
                         <option value="M">2</option>
                         <option value="E">3</option>
@@ -158,13 +181,12 @@
                         <option value="PF">6 </option>
                         <option value="R">MEDIA DOCENA</option>
                         <option value="G">UNA DOCENA</option>
-                    </select>
-                </div>
-
-
-                <div class="cantidad1"> CANTIDAD :
-                    <select name="MENU">
-                        <option value="0">0</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Select" class="form-label">CANTIDAD</label>
+                        <select id="Select" class="form-select">
+                           <option value="0">0</option>
                         <option value="A">1</option>
                         <option value="M">2</option>
                         <option value="E">3</option>
@@ -173,87 +195,65 @@
                         <option value="PF">6 </option>
                         <option value="R">MEDIA DOCENA</option>
                         <option value="G">UNA DOCENA</option>
-                    </select>
+                        </select>
+                    </div>
                 </div>
 
-
-
-                <div class="cantidad1"> CANTIDAD :
-                    <select name="MENU">
-                        <option value="0">0</option>
-                        <option value="A">1</option>
-                        <option value="M">2</option>
-                        <option value="E">3</option>
-                        <option value="SC">4</option>
-                        <option value="SF">5</option>
-                        <option value="PF">6 </option>
-                        <option value="R">MEDIA DOCENA</option>
-                        <option value="G">UNA DOCENA</option>
-                    </select>
+                <div class="col-12 col-md-4">
+                    <div class="mb-4">
+                        <label for="direccion" class="form-label">Ingrese Su Telefono</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="obs">
+                        <label for="observaciones">Observaciones:</label>
+                        <textarea class="d-block w-100" rows="10"></textarea>
+                    </div>
                 </div>
 
-
-                <div class="cantidad1"> CANTIDAD :
-                    <select name="MENU">
-                        <option value="0">0</option>
-                        <option value="A">1</option>
-                        <option value="M">2</option>
-                        <option value="E">3</option>
-                        <option value="SC">4</option>
-                        <option value="SF">5</option>
-                        <option value="PF">6 </option>
-                        <option value="R">MEDIA DOCENA</option>
-                        <option value="G">UNA DOCENA</option>
-                        <option value="0">0</option>
-                    </select>
+            </div>
+            <h3 class="text-light text-center">TIPOS DE DELIVERY</h3>
+            <div class="container delivery">
+                <div class="row d-flex justify-content-around">
+                    <div class="mb-3 col-12 col-md-4">
+                        <label for="Select" class="form-label">OPCIONES DE DELIVERY</label>
+                        <select id="Select" class="form-select">
+                            <option value="RT">RETIRO EN LA TIENDA</option>
+                            <option value="RP">RAPPI</option>
+                            <option value="PY">PEDIDOS YA</option>
+                            <option value="OT">OTROS</option>
+                        </select>
+                    </div>
+                    <div class="obsDeli col-12 col-md-4">
+                        <label for="observaciones">Observaciones:</label>
+                        <textarea class="d-block"></textarea>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="form-check mb-0 ">
+                        <input class="form-check-input" type="checkbox" id="FieldsetCheck">
+                        <label class="form-check-label" for="FieldsetCheck">
+                            Haz click en la checkbox si los datos ingresados estan correctos:
+                        </label>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center my-4">
+                    <button class=" mx-4 btn btn-laranja" type="submit">ENVIAR DATOS</button>
+                    <button class=" mx-4 btn btn-laranja" type="reset">LIMPIAR DATOS</button>
                 </div>
             </div>
-            <div class="observaciones">
-                <label for="observaciones">Observaciones: <br>
-                    <textarea></textarea>
-                </label> <br>
-            </div>
-        </section>
-        <div class="titudeli">
-            <h3>TIPOS DE DELIVERY:</h3>
         </div>
-        <div class="delivery2">
-            <div class="tpdeli">
-                <select name="hola" id="">
-                    <option value="RT">RETIRO EN LA TIENDA</option>
-                    <option value="RP">RAPPI</option>
-                    <option value="PY">PEDIDOS YA</option>
-                    <option value="OT">OTROS</option>
-                </select>
-            </div>
+        </div>
 
-            <div class="deliobs">
-                <label class="observaciones" for="observaciones">Observaciones caso elegiste otros: <br>
-                    <textarea></textarea>
-                </label> <br>
-            </div>
-        </div>
-        <div class="finalizar">
-            <div class="form-check">
-                <input class="form-check-input" type="checkbox" value="" id="si" required>
-                <label class="form-check-label" for="si">
-                    Haz click en la checkbox si los datos ingresados estan correctos:
-                </label>
-            </div>
-        </div>
-        <div class="bottom">
-            <button class="datos"> <input type="submit" value="Enviar Datos" /></button>
-            <button class="datos"><input type="reset" value="Limpiar Datos" /></button>
-        </div>
-        </form>
+
 
 
     </section>
 
 
+
     <footer class="text-center text-lg-start text-white">
         <!-- Footer Links -->
-        <div style="background-color: #1c2331">
+        <div>
             <div class="container-fluid text-center text-md-left">
 
                 <!-- Grid row -->
@@ -263,12 +263,12 @@
                     <div class="col-md-6 mt-md-0 mt-3">
 
                         <!-- Content -->
-                        <h5 class="text-uppercase">Restaurante La Libertad</h5>
+                        <h5 class="textFooter text-uppercase">EL BODEGON</h5>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 150px; background-color: #7c4dff ; height: 2px;">
+                            style="width: 150px; background-color: #e77719 ; height: 2px;">
 
                         <p>DONDE VIAJAR POR LATINOAMERICA EN UN SOLO LUGAR.</p>
-                        <img src="../imagenes/logolalibertad.jpg" alt="logolalibertad" width="150" height="130">
+                        <img src="../imagenes/Bodegonidea1.png" alt="logolalibertad" width="150" height="130">
 
                     </div>
                     <!-- Grid column -->
@@ -279,9 +279,9 @@
                     <div class="col-md-3 mb-md-0 mb-3">
 
                         <!-- Links -->
-                        <h5 class="text-uppercase fw-bold">Links</h5>
+                        <h5 class="textFooter text-uppercase fw-bold">Links</h5>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 40px; background-color: #7c4dff ; height: 2px;">
+                            style="width: 40px; background-color: #e77719 ; height: 2px;">
 
                         <ul class="list-unstyled">
                             <li>
@@ -308,9 +308,9 @@
                     <div class="col-md-3 mb-md-0 mb-3">
 
                         <!-- Links -->
-                        <h6 class="text-uppercase fw-bold">Contacto</h6>
+                        <h6 class="textFooter text-uppercase fw-bold">Contacto</h6>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 60px;background-color: #7c4dff ; height: 2px;">
+                            style="width: 60px;background-color: #e77719 ; height: 2px;">
                         <p>
                             <i class="fas fa-home mr-3"></i> BUENOS AIRES,CABA</p>
                         <p>
@@ -324,20 +324,7 @@
                 </div>
                 <!-- Grid row -->
                 <!-- Footer Elements -->
-                <div class="redes-sociales">
-                    <p class="text-center">Contactanos por redes sociales</p>
-                    <ul>
-                        <li>
-                            <a href="https://www.facebook.com"><img class="logo-faceboock" src="" alt=""></a>
-                        </li>
-                        <li>
-                            <a href="https://web.whatsapp.com"><img class="logo-whatsapp" src="" alt=""></a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com"><img class="logo-insta" src="" alt=""></a>
-                        </li>
-                    </ul>
-                </div>
+
 
                 <!-- Footer Links -->
             </div>

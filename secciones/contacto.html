@@ -11,16 +11,14 @@
     <link rel="stylesheet" href="../estilos/estilos.css">
     <meta name="descripcion" content="RESTAURANTE DE COMIDA BRASILEÑA,ECUATORIANA Y ARGENTINA EN CABA">
     <meta name="keywords" content="brasil,argentina,ecuador,delivery,caba,comida,variedad,latinoamerica">
-    <title>Restaurante La Libertad</title>
+    <title>EL BODEGÓN</title>
 </head>
 
 <body>
-    <header class="navBar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header>
+        <nav class="navitem navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="../imagenes/logolalibertad.jpg" alt="" width="50" height="45">
-                </a>
+                <a href="index.html"><img class="logo" img src="../imagenes/Bodegonidea1.png"> </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,19 +26,19 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="nav nav-tabs">
                         <li class="nav-item">
-                            <a class="nav-link home" aria-current="page" href="../index.html">HOME</a>
+                            <a class="nav-link" aria-current="page" href="../index.html">HOME</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link sobrenosotros" href="nosotros.html">SOBRE NOSOTROS</a>
+                            <a class="nav-link" href="nosotros.html">SOBRE NOSOTROS</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link menu" href="menu.html">MENU</a>
+                            <a class="nav-link" href="menu.html">MENU</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link hacersupedido" href="pedido.html">HACER SU PEDIDO</a>
+                            <a class="nav-link" href="pedido.html">HACER SU PEDIDO</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link contacto" href="contacto.html">CONTACTO</a>
+                            <a class="nav-link" href="contacto.html">CONTACTO</a>
                         </li>
                     </ul>
                 </div>
@@ -48,114 +46,115 @@
         </nav>
     </header>
 
-    <div class="titulo">
-        <h1>Restaurante La Libertad</h1>
-        <p><strong>DONDE VIAJAS POR LATINO AMERICA </strong> </p>
+    <div class="titulo d-flex justify-content-center">
+        <img class="imgBodcont" src="../imagenes/Bodegonidea1.png" alt="logo">
     </div>
+   
 
-    </header>
-
-    <hr>
-    
-    <section class="container-fluid">
+    <section class="formCont">
         <div class="contacto">
-        <form class="row g-3">
-            <div class="col-md-4">
-                <label for="validationDefault01" class="form-label text-light">Nombre completo</label>
-                <input type="text" class="form-control" id="validationDefault01" value="" required>
-            </div>
-            <div class="col-md-4">
-                <label for="validationDefault02" class="form-label text-light">Apellido completo</label>
-                <input type="text" class="form-control" id="validationDefault02" value="" required>
-            </div>
-            <div class="col-md-4">
-                <label for="validationDefaultUsername" class="form-label text-light">Celular</label>
-                <div class="input-group">
-                    <span class="input-group-text" id="inputGroupPrepend2">+54-911</span>
-                    <input type="text" placeholder=" Ingrese su numero sin 15" class="form-control"
-                        id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
+            <form class="row mx-0 g-3">
+                <div class="col-md-4 col-12">
+                    <label for="validationDefault01" class="form-label text-light">Nombre completo</label>
+                    <input type="text" class="form-control" id="validationDefault01" value="" required>
                 </div>
-            </div>
-            <div class="col-md-3">
-                <label for="validationDefault04" class="form-label text-light">Provincia</label>
-                <select class="form-select" id="validationDefault04" required>
-                    <option selected disabled value="">Choose...</option>
-                    <option>C.A.B.A.</option>
-                </select>
-            </div>
-            <div class="col-md-6">
-                <label for="validationDefault03" class="form-label text-light">Ciudad/Barrio</label>
-                <input type="text" class="form-control" id="validationDefault03" required>
-            </div>
-            <div class="row g-2">
-                <div class="col-md">
-                    <div class="form-floating">
-                        <input type="email" class="form-control text-light" id="floatingInputGrid" placeholder="name@example.com">
-                        <label for="floatingInputGrid">Ingrese su email</label>
+                <div class="col-md-4 col-12">
+                    <label for="validationDefault02" class="form-label text-light">Apellido completo</label>
+                    <input type="text" class="form-control" id="validationDefault02" value="" required>
+                </div>
+                <div class="col-md-4 col-12">
+                    <label for="validationDefaultUsername" class="form-label text-light">Celular</label>
+                    <div class="input-group">
+                        <span class="input-group-text" id="inputGroupPrepend2">+54 911</span>
+                        <input type="text" placeholder=" Ingrese su numero sin 15" class="form-control"
+                            id="validationDefaultUsername" aria-describedby="inputGroupPrepend2" required>
                     </div>
                 </div>
-                <div class="col-md">
-                    <div class="form-floating">
-                        <select class="form-select" id="floatingSelectGrid" aria-label="Floating label select example">
-                            <option selected>Seleccione una opcion</option>
-                            <option value="D">DUDAS</option>
-                            <option value="P">PAGO</option>
-                            <option value="P">PEDIDOS</option>
-                            <option value="M">MENU</option>
-                            <option value="O">OTRO MOTIVO</option>
-                        </select>
-                        <label for="floatingSelectGrid">Seleccione fuero de consulta</label>
+
+                <div class="col-md-12 col-12">
+                    <label for="validationDefault04" class="form-label text-light">Provincia</label>
+                    <select class="form-select" id="validationDefault04" required>
+                        <option selected disabled value="">Choose...</option>
+                        <option>C.A.B.A.</option>
+                    </select>
+                </div>
+
+                <div class="col-md-12 col-12">
+                    <label for="validationDefault03" class="form-label text-light">Ciudad/Barrio</label>
+                    <input type="text" class="form-control" id="validationDefault03" required>
+                </div>
+
+                <div class="row g-2 col-12">
+                    <div class="col-md">
+                        <div class="form-floating">
+                            <input type="email" class="form-control text-light" id="floatingInputGrid"
+                                placeholder="name@example.com">
+                            <label for="floatingInputGrid">Ingrese su email</label>
+                        </div>
+                    </div>
+                    <div class="col-md col-12">
+                        <div class="form-floating">
+                            <select class="form-select" id="floatingSelectGrid"
+                                aria-label="Floating label select example">
+                                <option selected>Seleccione una opcion</option>
+                                <option value="D">DUDAS</option>
+                                <option value="P">PAGO</option>
+                                <option value="P">PEDIDOS</option>
+                                <option value="M">MENU</option>
+                                <option value="O">OTRO MOTIVO</option>
+                            </select>
+                            <label for="floatingSelectGrid">Seleccione fuero de consulta</label>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label text-light">Ingrese su consulta</label>
-                <textarea
-                    placeholder="Escriba su consulta con el mayor detalle posible. Te contactaremos lo mas breve posible ."
-                    class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+                <div class="mb-3 w-50 col-12">
+                    <label for="exampleFormControlTextarea1" class="form-label text-light">Ingrese su consulta</label>
+                    <textarea
+                        placeholder="Escriba su consulta con el mayor detalle posible. Te contactaremos lo mas breve posible ."
+                        class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
 
-            <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                    <label class="form-check-label text-light" for="invalidCheck2">
-                        Acepto los terminos y condiciones
-                    </label>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label text-light" for="invalidCheck2">
+                            Acepto los terminos y condiciones
+                        </label>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12">
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-                    <label class="form-check-label text-light" for="invalidCheck2">
-                        Acepto que el restaurante se contacte al celular registrado.
-                    </label>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                        <label class="form-check-label text-light" for="invalidCheck2">
+                            Acepto que el restaurante se contacte al celular registrado.
+                        </label>
+                    </div>
                 </div>
-            </div>
-            <div class="col-12">
-                <div class="valoracion d-flex text-light">Valores Nuestro Canal de Contacto:
-                    <div class="valoracion1">Malo</div>
-                    <input type="radio" name="Valoracion" value="Malo" />
-                    <div class="valoracion2">Mediano</div>
-                    <input type="radio" name="Valoracion" value="Mediano" />
-                    <div class="valoracion3">Bueno</div>
-                    <input type="radio" name="Valoracion" value="Bueno" />
+                <div class="col-12">
+                    <div class="valoracion d-flex text-light">Valores Nuestro Canal de Contacto:
+                        <div class="valoracion1">Malo</div>
+                        <input type="radio" name="Valoracion" value="Malo" />
+                        <div class="valoracion2">Mediano</div>
+                        <input type="radio" name="Valoracion" value="Mediano" />
+                        <div class="valoracion3">Bueno</div>
+                        <input type="radio" name="Valoracion" value="Bueno" />
+                    </div>
                 </div>
-            </div>
 
-            <div class="col-12">
-                <div class="butCon">
-                <button class="btn btn-primary" type="submit">Enviar formulario</button>
-                <button class="btn btn-primary" type="reset">Limpiar Datos</button>
+                <div class="col-12">
+                    <div class="butCon">
+                        <button class="btn btn-primary" type="submit">Enviar formulario</button>
+                        <button class="btn btn-primary" type="reset">Limpiar Datos</button>
+                    </div>
                 </div>
-            </div>
-        </form>
-       </div>
+            </form>
+        </div>
     </section>
 
 
     <footer class="text-center text-lg-start text-white">
         <!-- Footer Links -->
-        <div style="background-color: #1c2331">
+        <div>
             <div class="container-fluid text-center text-md-left">
 
                 <!-- Grid row -->
@@ -165,12 +164,12 @@
                     <div class="col-md-6 mt-md-0 mt-3">
 
                         <!-- Content -->
-                        <h5 class="text-uppercase">Restaurante La Libertad</h5>
+                        <h5 class="textFooter text-uppercase">EL BODEGON</h5>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 150px; background-color: #7c4dff ; height: 2px;">
+                            style="width: 150px; background-color: #e77719 ; height: 2px;">
 
                         <p>DONDE VIAJAR POR LATINOAMERICA EN UN SOLO LUGAR.</p>
-                        <img src="../imagenes/logolalibertad.jpg" alt="logolalibertad" width="150" height="130">
+                        <img src="../imagenes/Bodegonidea1.png" alt="logolalibertad" width="150" height="130">
 
                     </div>
                     <!-- Grid column -->
@@ -181,9 +180,9 @@
                     <div class="col-md-3 mb-md-0 mb-3">
 
                         <!-- Links -->
-                        <h5 class="text-uppercase fw-bold">Links</h5>
+                        <h5 class="textFooter text-uppercase fw-bold">Links</h5>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 40px; background-color: #7c4dff ; height: 2px;">
+                            style="width: 40px; background-color: #e77719 ; height: 2px;">
 
                         <ul class="list-unstyled">
                             <li>
@@ -210,9 +209,9 @@
                     <div class="col-md-3 mb-md-0 mb-3">
 
                         <!-- Links -->
-                        <h6 class="text-uppercase fw-bold">Contacto</h6>
+                        <h6 class="textFooter text-uppercase fw-bold">Contacto</h6>
                         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
-                            style="width: 60px;background-color: #7c4dff ; height: 2px;">
+                            style="width: 60px;background-color: #e77719 ; height: 2px;">
                         <p>
                             <i class="fas fa-home mr-3"></i> BUENOS AIRES,CABA</p>
                         <p>

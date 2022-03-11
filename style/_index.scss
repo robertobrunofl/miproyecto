@@ -1,101 +1,102 @@
 /*index*/
-
-.contenedor {
-    background-color: lightgray;
-    margin: 5px;
-}
-
-.card-img-top:hover {
-    transform: scale(2);
-}
-
-.contenedor {
-    background-color: lightgray;
-    margin: 5px;
-}
-
 .titulo {
-    padding: 5px;
-    margin-bottom: 5px;
-    border: 5px solid #000;
-    background-color: beige;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin-top: 3px;
+    background-color: #1f1d1a;
+}
 
-    .nomeRest {
-        justify-content: center;
+.caja {
+    background-color: #1f1d1a;
+    width: 100%;
+
+    .sobNos {
+        margin-left: 20px;
+
+        .titSn {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-style: italic;
+            color: white;
+        }
+
+        .textNos {
+            width: 90%;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            color: #e7771e;
+        }
     }
 
-    font-style: italic;
-    font-family: 'Lucida Sans',
-    'Lucida Sans Regular',
-    'Lucida Grande',
-    'Lucida Sans Unicode',
-    Geneva,
-    Verdana,
-    sans-serif;
-
-}
-
-.nosIndex {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.card-group {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.pedido {
-
-    h2 {
+    .tituloCard {
         display: flex;
         justify-content: center;
+        color: white;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        margin-top: 10px;
-    }
-    p{
-        margin-left: 20px;
-    }
-    button:hover {
-        transform: scale(105%);
-
-    }
-
-    p {
-        display: flex;
-        justify-content: center;
-        font-family: 'Times New Roman', Times, serif;
-    }
-    .aca{
-        margin-left: 8px;
-    }
-}
-
-.indexPagos {
-    display: flex;
-    justify-content: center;
-    margin-left: 120px;
-    font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
-    .obs{
-        margin-left: 20px;
         font-size: large;
     }
+
+    .card-img-top:hover {
+        transform: scale(102%);
+    }
+
+    .nuevoPed {
+        border: solid #e7771e 5px;
+        border-radius: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    .pedido {
+
+        h2 {
+            display: flex;
+            justify-content: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 10px;
+            color: white;
+        }
+
+        button:hover {
+            transform: scale(105%);
+
+        }
+
+        p {
+            display: flex;
+            justify-content: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+            margin-left: 20px;
+            color: #e7771e;
+
+            .buttonaca {
+                background-color: #e7771e;
+                height: 30px;
+                font-size: small;
+
+            }
+        }
+
+        .aca {
+            margin-left: 10px;
+        }
+    }
+
+    .indexPagos {
+        display: flex;
+        justify-content: center;
+        font-size: medium;
+        font-family: 'Times New Roman', Times, serif;
+        color: #e7771e;
+
+        .obs {
+            margin-left: 20px;
+            font-size: large;
+        }
+    }
+
+
 }
 
-.mP {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+@media (max-width:768px) {
+    .card {
+        margin-bottom: 20px;
 
-.card-img-top:hover {
-    transform: scale(110%);
-}
-
-.tituloCard {
-    display: flex;
-    justify-content: center;
+    }
 }

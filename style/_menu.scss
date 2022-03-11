@@ -2,14 +2,16 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 1.5em;
-  background-color: #c4b3d5;
+  background-color: #e77719;
   margin-bottom: 8px;
 }
-
+#c4b3d5
 .menu {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
-
+.colorgeneral{
+  background-color: #1f1d1a;
+}
 .menu-group-heading {
   margin: 0;
   padding-bottom: 1em;
@@ -51,6 +53,10 @@
 
 .menu-item-description {
   line-height: 1.6;
+}
+.imgBod{
+  height: 393px;
+  width: 100%;
 }
 
 @media screen and (min-width: 992px) {

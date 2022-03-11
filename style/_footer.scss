@@ -1,0 +1,19 @@
+footer {
+    background-color: #1f1d1a;
+
+    .textFooter {
+        color: white;
+    }
+
+    .fas {
+        color: #e77719;
+    }
+
+    .list-unstyled li a {
+        color: rgb(212, 209, 209);
+
+        &:hover {
+            color: white;
+        }
+    }
+}
