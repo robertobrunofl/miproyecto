@@ -37,7 +37,7 @@
   font-size: large;
 }
 
-.caja .tituloCard .container:hover {
+.caja .tituloCard .indexHoover:hover {
   -webkit-transform: scale(103%);
           transform: scale(103%);
 }
@@ -121,7 +121,7 @@
   text-decoration: none;
 }
 
-.caja .container:hover {
+.caja .indexHoover:hover {
   -webkit-transform: scale(103%);
           transform: scale(103%);
 }
@@ -309,6 +309,11 @@
 
 .pedidosPart {
   background-color: #1f1d1a;
+}
+
+.pedidosPart .pedHover:hover {
+  -webkit-transform: scale(103%);
+          transform: scale(103%);
 }
 
 .pedidosPart .nuevoPed {

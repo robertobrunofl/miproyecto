@@ -1,6 +1,9 @@
 .pedidosPart {
     background-color: #1f1d1a;
+    .pedHover:hover{
+        transform: scale(103%);
 
+    }
     .nuevoPed {
         border: solid #e77719 5px;
         border-radius: 15px;
@@ -8,7 +11,6 @@
     .tpDeli{
         border: solid #e77719 5px;
         border-radius: 15px;
-        
     }
     .formDatos,
     .delivery {
