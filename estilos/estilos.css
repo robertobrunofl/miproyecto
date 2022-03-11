@@ -278,6 +278,11 @@
   border-radius: 15px;
 }
 
+.pedidosPart .tpDeli {
+  border: solid #e77719 5px;
+  border-radius: 15px;
+}
+
 .pedidosPart .formDatos,
 .pedidosPart .delivery {
   color: #e77719;
@@ -335,8 +340,17 @@
   margin-bottom: 15px;
 }
 
+.formCont .butCon :hover {
+  -webkit-transform: scale(103%);
+          transform: scale(103%);
+}
+
+.formCont .butCon .btn-cont {
+  background-color: #e77719;
+}
+
 .navbar {
-  background-color: whitesmoke;
+  background-color: #272726;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -351,6 +365,15 @@
           justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+.nav-tabs li a {
+  color: white;
+}
+
+.nav-tabs li a:hover {
+  color: #E77719;
 }
 
 .nav-link1 {

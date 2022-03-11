@@ -26,5 +26,11 @@
 
     .butCon {
         margin-bottom: 15px;
+        :hover{
+            transform: scale(103%);
+        }
+        .btn-cont {
+            background-color: #e77719;
+        }
     }
 }

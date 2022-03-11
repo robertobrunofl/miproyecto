@@ -1,5 +1,5 @@
 .navbar {
-  background-color: whitesmoke;
+  background-color: #272726;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -7,6 +7,13 @@
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  text-decoration: none;
+}
+.nav-tabs li a {
+  color: white;
+  &:hover {
+    color: #E77719;
+}
 }
 
 .nav-link1 {
