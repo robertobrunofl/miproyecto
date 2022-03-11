@@ -30,16 +30,39 @@
         color: white;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: large;
+
+        .container:hover {
+            transform: scale(103%);
+        }
+
     }
 
     .card-img-top:hover {
         transform: scale(102%);
     }
 
+    .card {
+        background-color: #e7771e;
+
+        .card-title {
+            text-align: center;
+            color: #f3f2ef;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        .card-text {
+            font-family: 'Times New Roman', Times, serif;
+            color: #1f1d1a;
+            text-align: center;
+        }
+    }
+
     .nuevoPed {
         border: solid #e7771e 5px;
         border-radius: 15px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
     }
 
     .pedido {
@@ -57,6 +80,10 @@
 
         }
 
+        .container:hover {
+            transform: scale(103%);
+        }
+
         p {
             display: flex;
             justify-content: center;
@@ -69,15 +96,24 @@
                 background-color: #e7771e;
                 height: 30px;
                 font-size: small;
-
             }
+        }
+
+        .buttonaca1 {
+            background-color: #e7771e;
+            height: 30px;
+            font-size: small;
+
         }
 
         .aca {
             margin-left: 10px;
+            text-decoration: none;
         }
     }
-
+    .container:hover{
+        transform: scale(103%);
+    }
     .indexPagos {
         display: flex;
         justify-content: center;

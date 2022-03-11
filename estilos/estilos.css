@@ -37,9 +37,30 @@
   font-size: large;
 }
 
+.caja .tituloCard .container:hover {
+  -webkit-transform: scale(103%);
+          transform: scale(103%);
+}
+
 .caja .card-img-top:hover {
   -webkit-transform: scale(102%);
           transform: scale(102%);
+}
+
+.caja .card {
+  background-color: #e7771e;
+}
+
+.caja .card .card-title {
+  text-align: center;
+  color: #f3f2ef;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.caja .card .card-text {
+  font-family: 'Times New Roman', Times, serif;
+  color: #1f1d1a;
+  text-align: center;
 }
 
 .caja .nuevoPed {
@@ -65,6 +86,11 @@
           transform: scale(105%);
 }
 
+.caja .pedido .container:hover {
+  -webkit-transform: scale(103%);
+          transform: scale(103%);
+}
+
 .caja .pedido p {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,8 +110,20 @@
   font-size: small;
 }
 
+.caja .pedido .buttonaca1 {
+  background-color: #e7771e;
+  height: 30px;
+  font-size: small;
+}
+
 .caja .pedido .aca {
   margin-left: 10px;
+  text-decoration: none;
+}
+
+.caja .container:hover {
+  -webkit-transform: scale(103%);
+          transform: scale(103%);
 }
 
 .caja .indexPagos {
